@@ -1,28 +1,46 @@
-1/ Télécharger la base de donné (fichier lepays.zip")
+Mon site WordPress
 
-2/ Télécharger Wordpress
+Fonctionnalités
+
+Thème : LePays
+
+Plugins : All-In-One SEO Pack, Google Analytics Dashboard for WP, iThemes Security, Optin Monster, WPS Hide Login
+
+Langue : Français
+
+Comment utiliser :
+
+Importez la base de données "lepays.sql" dans le repo, dans votre base de données MySQL (appeler la "lepays")
+
+Installez WordPress sur votre serveur web sur wordpress.org
+
+Extraire le fichier wordpress dans le dossier htdocs en suivant ce chemin : Xampp -> htdocs
+
+Renommez le fichier extré "wordpress" par -> "lepays"
+
+Copiez le dossier thème "lepays" en suivant ce chemin :
+
+xampp / htdocs / wp-content / themes 
+
+Copier le dossier "lepays"
 
 
-Accédez au site officiel de WordPress à l'adresse https://wordpress.org/
+Vous pouvez accédez au site web en local en tapant cette url : localhost/lepays
 
-Cliquez sur le bouton "Télécharger WordPress" 
+Configurer l'installation votre wordpress et activer le thème dans l'onglet "Apparence" du menu Wordpress
 
-Le téléchargement va commencer automatiquement.
 
-Extrayez le fichier zip wordpress téléchargé dans ce chemin : xampp / htdocs 
+////////// Précisions//////////
 
-Renommer le dossier extracté en "lepays"
+Si vous rencontrez des problemes de lien internes vers les différentes pages 
 
-Ensuite télécharger le repository Github sur ma page : https://github.com/AnselmTrinh/ecf_wp
+Essayez de réinitialiser les permaliens WordPress en suivant ces étapes :
 
-Retirer les fichiers suivants : tous les png (maquette), sauf le "screenshot.png"
+Accédez à l'interface d'administration de WordPress.
 
-Dès que le téléchargement est fini, il faut extraire ce zip dans ce chemin : xampp / htdocs / le pays / wp-content / themes 
+Cliquez sur "Réglages" dans le menu principal, puis sur "Permaliens".
 
-A présent lancer votre wordpress en tapant cette URL : localhost/lepays
+Cliquez sur "Enregistrer les modifications" sans modifier les réglages actuels. Cela réinitialisera les permaliens WordPress.
 
-Configurer votre wordpress
+Essayez d'accéder à vos autres pages pour voir si le problème est résolu.
 
-Dès la configuration fini vous pouvez voir dans l'onglet "apparence" un thème nommer "LE PAYS",
-
-ACTIVER le et aller sur le site, en cliquant sur l'icone "maison" en haut a gauche
