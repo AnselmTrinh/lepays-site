@@ -4,7 +4,7 @@ Fonctionnalités
 
 Thème : LePays
 
-Plugins : All-In-One SEO Pack, Google Analytics Dashboard for WP, iThemes Security, Optin Monster, WPS Hide Login
+Plugins : Jetpack Security , Yoast SEO, 
 
 Langue : Français
 
