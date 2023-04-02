@@ -10,15 +10,19 @@ Langue : Français
 
 Comment utiliser :
 
-Importez la base de données "lepays.sql" dans le repo, dans votre base de données MySQL (appeler la "lepays")
+Créer une base de donnée sur Xampp, appelé la "lepays"
 
-Installez WordPress sur votre serveur web sur wordpress.org
+Importez la base de données "lepays.sql" dans le repo, et importer la dans votre base de donnée.
 
-Extraire le fichier wordpress dans le dossier htdocs en suivant ce chemin : Xampp -> htdocs
+
+
+Installez WordPress sur wordpress.org
+
+Extraire le fichier zip wordpress dans le dossier htdocs en suivant ce chemin : Xampp -> htdocs
 
 Renommez le fichier extré "wordpress" par -> "lepays"
 
-Copiez le dossier thème "lepays" en suivant ce chemin :
+Copiez le dossier thème "lepays" de ce repo en suivant ce chemin :
 
 xampp / htdocs / wp-content / themes 
 
