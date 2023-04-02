@@ -9,18 +9,20 @@ Plugins : Jetpack Security , Yoast SEO,
 Langue : Français
 
 Comment utiliser :
-
-Créer une base de donnée sur Xampp, appelé la "lepays"
-
-Importez la base de données "lepays.sql" dans le repo, et importer la dans votre base de donnée.
+1- Télécharger ce repository en fichier zip, extraire le fichier et suivre les étapes suivantes : 
 
 
+2- Créer une base de donnée sur Xampp, appelé la "lepays"
 
-Installez WordPress sur wordpress.org
+Importer la base de données "lepays.sql" téléchargé dans le dossier dans votre base de donnée.
 
-Extraire le fichier zip wordpress dans le dossier htdocs en suivant ce chemin : Xampp -> htdocs
 
-Renommez le fichier extré "wordpress" par -> "lepays"
+
+3- Installez WordPress sur wordpress.org
+
+-Extraire le fichier zip wordpress dans le dossier htdocs en suivant ce chemin : Xampp -> htdocs
+
+-Renommez le fichier extré "wordpress" par -> "lepays"
 
 Copiez le dossier thème "lepays" de ce repo en suivant ce chemin :
 
@@ -29,7 +31,7 @@ xampp / htdocs / wp-content / themes
 Copier le dossier "lepays"
 
 
-Vous pouvez accédez au site web en local en tapant cette url : localhost/lepays
+4- Vous pouvez accédez au site web en local en tapant cette url : localhost/lepays
 
 Configurer l'installation votre wordpress et activer le thème dans l'onglet "Apparence" du menu Wordpress
 
